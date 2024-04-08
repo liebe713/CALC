@@ -25,9 +25,9 @@
                 <button type="button" class="operator" onclick="appendToDisplay('*')">*</button>
                 <button type="button" onclick="appendToDisplay('0')">0</button>
                 <button type="button" onclick="appendToDisplay('.')">.</button>
-                <button type="button" onclick="appendToDisplay('/')">/</button>
-                <button type="button" onclick="clearDisplay()">C</button>
-                <button type="submit" name="submit" class="operator">=</button>
+                <button type="button" class="operator" onclick="appendToDisplay('/')">/</button>
+                <button type="button" class="operator" onclick="clearDisplay()">C</button>
+                <button type="submit" name="submit" class="equal">=</button>
             </div>
         </form>
         

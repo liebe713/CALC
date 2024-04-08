@@ -41,12 +41,25 @@
 }
 
 .calculator button.operator {
-    background-color: #ff9f00;
+    background-color: #007bff;
     color: #ffffff;
+}
+.calculator button.equal {
+    background-color: #007bff;
+    color: #ffffff;
+    width: calc(100% - 1px); 
+    grid-column: span 4; 
+}
+.calculator button.equal:hover {
+    background-color: #0056b3;
 }
 
 .calculator button.operator:hover {
-    background-color: #ffbf00;
+    background-color: #0056b3;
+}
+
+.calculator button.operator:active {
+    background-color: #003d6a; 
 }
 
 .calculator button.divide,
